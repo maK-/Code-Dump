@@ -25,7 +25,7 @@ s.send('JOIN '+chan+'\r\n')
 print(s.recv(4096))
 
 #Display text properly
-keysss = {'&#039;':'\'','&#39;':'\'','&#8217;':'\'','&#x20AC;':'€','(':'',')':'','@':''}
+keysss = {'&#039;':'\'','&#39;':'\'','&#8217;':'\'','&#x20AC;':'€','(':'',')':'','@':'','&amp;':'&'}
 
 #Array to hold link values
 global linkz
