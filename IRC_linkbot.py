@@ -25,7 +25,7 @@ s.send('JOIN '+chan+'\r\n')
 print(s.recv(4096))
 
 #Display text properly
-keysss = {'&#039;':'\'','&#39;':'\'','&#8217;':'\'','&#x20AC;':'€','(':'',')':'','@':'','&amp;':'&','&quot;':'"'}
+keysss = {'&#039;':'\'','&#39;':'\'','&#8217;':'\'','&#x20AC;':'€','(':'',')':'','@':'','&amp;':'&','&quot;':'"','&Eacute;':'E'}
 
 serverval = '' #Server name
 t = ''#Array to hold link values
@@ -242,7 +242,7 @@ while True:
                         s.send('PRIVMSG '+tochannel+' :'+head+t+'\r\n')
                     
             if isLink == 'Image':
-                if('.jpg' in link)or('.jpeg' in link)or('.png' in link):                        
+                if('.jpg' in link)or('.jpeg' in link)or('.png' in link)or('.gif' in link):                        
                     if link+'\n' not in imagelinkz:
                         imagelinkz.append(link+'\n')
                         saveImage(link)
