@@ -243,7 +243,7 @@ while True:
                             s.send('PRIVMSG '+tochannel+' :5['+link+'5] '+head+t+'\r\n')
                         else:
                             s.send('PRIVMSG '+tochannel+' :'+head+t+'\r\n')
-  #Random comment                  
+                
             if isLink == 'Image':
                 if('.jpg' in link)or('.jpeg' in link)or('.png' in link)or('.gif' in link):                        
                     if link+'\n' not in imagelinkz:
