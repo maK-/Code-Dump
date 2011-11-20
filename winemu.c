@@ -1,4 +1,4 @@
-//A GENUINE WINDOWS EMULATOR
+//A GENUINE WINDOWS EMULATOR - Works best in an 80x25 terminal.
 
 #include <stdio.h>
 #include <unistd.h>
