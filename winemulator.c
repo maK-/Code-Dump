@@ -1,4 +1,6 @@
+//LOLOLOLOLOLOL
 //A GENUINE WINDOWS EMULATOR - Works best in an 80x25 terminal.
+//LOLOLOLOLOLOL
 
 #include <stdio.h>
 #include <unistd.h>
